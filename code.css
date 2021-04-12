@@ -1,0 +1,94 @@
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.baseBlock {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.checked {
+	-webkit-transform: translate(0, -2px);
+	-moz-transform: translate(0, -2px);
+	-ms-transform: translate(0, -2px);
+	-o-transform: translate(0, -2px);
+	transform: translate(0, -2px);
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+	.col-xs-4{
+    padding-left: 4px !important;
+	padding-right:4px !important;
+}
+.card-body{
+		padding:0px 0px 0px 0px;	
+}
+.card-text{
+	text-align:center;
+}
+
+body { padding: 1rem; 
+background-color:#f0efef !important;
+}
+
+.strength{
+	font-weight:200
+}
+
+
+@media (min-width: 800px) {
+.form-inline .input-group>.form-control {
+    width:200% !important;
+}
+	.container{
+		border:3px solid black;
+	}
+}
+@media (min-width:768px) {
+	.form-group {
+    margin-bottom: 15px !important;
+}
+.iSpace{
+    margin-right: 15px;
+}
+}
+@media (max-width:600px) {
+	svg {
+    width:8% !important;
+}
+}
+@media (max-width:768px) {
+	.form-group {
+    margin-bottom: 0px;
+}
+}
+@media (min-width: 992px){
+.container {
+    width: 800px;
+}}
+@media (min-width: 1200px){
+.container {
+    width: 900px;
+}
+}
+.round {
+  left:75%;
+	padding-top:2px;
+    position: relative;
+}
+
+.card:hover .radio_label:hover{
+    cursor: pointer;
+}
+.card-text{
+	font-weight:100;
+}
+
+.checked{
+  border: 2px solid green;
+}
