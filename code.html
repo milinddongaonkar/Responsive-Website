@@ -1,0 +1,69 @@
+<link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="code.css">
+<div class="container">
+	<div>
+	<svg xmlns="http://www.w3.org/2000/svg" width="5%" height="5%" length="3%" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+		</svg></div>
+	<label style="font-size:20px">Cash out</label>
+	<div class="row">
+ <div class="col-md-4 col-xs-4">
+   <div class="card baseBlock" id="card1">
+                <input name="plan" class="radio  round" type="radio" id="radio1" onchange="handleChange1();" checked><label for="radio1" class="radio_label">
+  <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 120px; width: 100%; display: block;" src="https://media.gettyimages.com/photos/closeup-of-smart-phone-over-white-background-picture-id1170940826?s=612x612" data-holder-rendered="true">
+  <div class="card-body">
+    <p class="card-text">Convert to credit</p>
+		 </div></label>
+</div>
+  </div>
+	 <div class="col-md-4 col-xs-4">
+   <div class="card baseBlock" id="card2">
+		  <input name="plan" class="radio round" type="radio" onchange="handleChange1();"  id="radio2"><label for="radio2" class="radio_label">
+  <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 120px; width: 100%; display: block;" src="https://media.istockphoto.com/vectors/default-profile-picture-avatar-photo-placeholder-vector-illustration-vector-id1223671392?k=6&m=1223671392&s=612x612&w=0&h=NGxdexflb9EyQchqjQP0m6wYucJBYLfu46KCLNMHZYM=" data-holder-rendered="true">
+  <div class="card-body">
+    <p class="card-text">Donate to charity</p>
+		 </div></label>
+</div>
+  </div>
+	 <div class="col-md-4 col-xs-4">
+   <div class="card baseBlock" id="card3">
+		<input name="plan" class="radio round" type="radio" id="radio3" onchange="handleChange1();" ><label for="radio3" class="radio_label">
+  <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 120px; width: 100%; display: block;" src="https://cdn.pixabay.com/photo/2018/05/08/21/29/paypal-3384015_1280.png" data-holder-rendered="true">
+  <div class="card-body">
+    <p class="card-text">Paypal cashout</p>
+  </div>
+		 </label>
+</div>
+  </div>
+	
+ </div>
+
+
+<br/><br/>
+<div>
+<label class="strength">Convert your cash to credit to get even more lottery lines</label>
+<br>
+<label >Enter Amount</label>
+<form class="form-inline input">
+  <div class="form-group">
+ <label class="iSpace">Cash</label>
+    <div class="input-group">
+      <div class="input-group-addon ">&#8356;</div>
+      <input type="number" min="0.00" step="0.05" id="exampleInputAmount" class="form-control">
+    </div>
+  </div>
+</form>
+<form class="form-inline input l">
+  <div class="form-group ">
+ <label class="iSpace">Credit x 1.5 Multiplier</label>
+    <div class="input-group">
+      <div class="input-group-addon">&#8356;</div>
+      <input type="number" min="0.00" step="0.05" value="1.00" id="exampleInputAmount" class="form-control" placeholder="Price">
+    </div>
+  </div>
+</form>
+</div>
+	<button type="button" style=" margin-top:20px;  margin-bottom:20px" class="btn btn-primary btn-lg btn-block">Submit</button>
+</div>
+<script src="code.js"></script>
